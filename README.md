@@ -21,5 +21,9 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 1.- Usé la guía de estudio que me proporcionó ChatGPT, abarcamos un plan de estudio breve para entender el Ternary Search.
 
-2.- 
+2.- El primer paso es crear nuestras variables, arreglos (indispensbles para la busqueda) y el metodo de busqueda.
+
+3.- El metodo 'ternarySearch' recibe un arreglo el cual será la lista a examinar 'array', el primer indicie y el ultimo 'i' 'k', y la llave a buscar 'key'.
+
+4.- En el metodo main tenemos una variable 'result' que será la encargada de almacenar un resultado positvo o negativo de busqueda.
 # ternary-search

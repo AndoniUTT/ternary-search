@@ -1,6 +1,28 @@
 public class App {
 
     public static int ternarySearch(int[] array, int i, int k, int key){
+        while (k >= i) {
+            int mid1 = i + (k - i) / 3;
+            int mid2 = k - (k - i) / 3;
+
+            if (array[mid1] == key) {
+                return mid1;
+            }
+
+            if (array[mid2] == key) {
+                return mid2;
+            }
+
+            if (key < array[mid1]) {
+                k = mid1 - 1;
+            } else if (key > array[mid2]) {   
+                i = mid2 + 1;
+            } else {
+                i = mid1 + 1;
+                k = mid2 - 1;
+            }
+        }
+        return -1;  // regresamos una sentencia negativa si la clave no se encuentra en el arreglo
     }
 
 
