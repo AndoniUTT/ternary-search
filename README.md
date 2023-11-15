@@ -17,7 +17,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
----------- COMIENZO DESARROLLO ------------
+---------- C O M I E N Z O   D E S A R R O L L O ------------
 
 1.- Usé la guía de estudio que me proporcionó ChatGPT, abarcamos un plan de estudio breve para entender el Ternary Search.
 
